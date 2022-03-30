@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testPackage.TestClass1">
+        <methods>
+          <include name="driverclose"/>
+          <include name="Select_plan"/>
+          <include name="Reenter_Name"/>
+          <include name="Payment"/>
+          <include name="extentReports"/>
+          <include name="Customer_Enroll" invocation-numbers="0"/>
+          <include name="chromelaunch"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- testPackage.TestClass1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
